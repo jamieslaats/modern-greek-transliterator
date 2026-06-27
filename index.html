@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Modern Greek (IPA Pronunciation) Transliterator</title>
+<title>Modern Greek (IPA-BGN/PCGN Pronunciation) Transliterator</title>
 <link href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Cinzel:wght@400;500;600&display=swap" rel="stylesheet">
 <style>
   *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
@@ -62,7 +62,7 @@
     line-height: 1.2;
     margin-bottom: 0.5rem;
   }
-  .subtitle { font-style: normal; color: var(--muted); font-size: 1rem; }
+  .subtitle { font-style: italic; color: var(--muted); font-size: 1rem; }
   .footer-rule { height: 1px; background: linear-gradient(to right, transparent, var(--border), var(--gold), var(--border), transparent); margin-top: 1.4rem; }
 
   /* ── Form ── */
@@ -79,7 +79,7 @@
   }
   .lang-tag {
     font-family: 'EB Garamond', serif;
-    font-style: normal;
+    font-style: italic;
     font-size: 0.85rem;
     color: var(--muted);
     margin-left: 0.5rem;
@@ -142,7 +142,7 @@
   .btn-ref:hover { background: var(--gold); color: #fdfaf4; transform: translateY(-1px); }
 
   .copy-msg {
-    font-style: normal;
+    font-style: italic;
     color: var(--accent2);
     font-size: 0.9rem;
     opacity: 0;
@@ -162,7 +162,7 @@
   footer {
     margin-top: 4rem;
     text-align: center;
-    font-style: normal;
+    font-style: italic;
     color: var(--muted);
     font-size: 0.88rem;
     border-top: 1px solid var(--border);
@@ -232,7 +232,7 @@
     margin-bottom: 0.3rem;
   }
   .modal-subtitle {
-    font-style: normal;
+    font-style: italic;
     color: var(--muted);
     font-size: 0.92rem;
     margin-bottom: 1.8rem;
@@ -290,7 +290,7 @@
   }
   .col-name {
     color: var(--muted);
-    font-style: normal;
+    font-style: italic;
     width: 20%;
     font-size: 0.9rem;
   }
@@ -309,7 +309,7 @@
   .col-example {
     color: var(--muted);
     font-size: 0.88rem;
-    font-style: normal;
+    font-style: italic;
   }
 
   /* Diphthong rows slightly indented feel */
@@ -325,7 +325,7 @@
     background: rgba(201,151,58,0.08);
     font-size: 0.88rem;
     color: var(--muted);
-    font-style: normal;
+    font-style: italic;
     line-height: 1.6;
   }
   .note strong { font-style: normal; color: var(--ink); }
@@ -349,8 +349,8 @@
     <div class="header-rule">
       <span class="header-ornament">✦ ✦ ✦</span>
     </div>
-    <h1>Neo Hellenic Koine Greek Transliterator</h1>
-    <p class="subtitle">Modern Theological IPA Pronunciation System</p>
+    <h1>Greek Transliterator</h1>
+    <p class="subtitle">Modern Theological Pronunciation System</p>
     <div class="footer-rule"></div>
   </header>
 
@@ -378,7 +378,7 @@
   </div>
 
   <footer>
-    Reflects modern Greek pronunciation using IPA Standards&mdash;not Erasmian&mdash;for use alongside original texts.
+    Reflects modern Greek pronunciation &mdash; not Erasmian &mdash; for use alongside original texts.
   </footer>
 
 </div>
@@ -408,7 +408,7 @@
         <tbody>
           <tr><td class="col-greek">α  Α</td><td class="col-name">Alpha</td>   <td class="col-ipa">/a/</td>         <td class="col-latin">a</td>   <td class="col-example">ἀγάπη → agápi</td></tr>
           <tr><td class="col-greek">β  Β</td><td class="col-name">Beta</td>    <td class="col-ipa">/v/</td>         <td class="col-latin">v</td>   <td class="col-example">βίος → víos</td></tr>
-          <tr><td class="col-greek">γ  Γ</td><td class="col-name">Gamma</td>   <td class="col-ipa">/ɣ/ or /ʝ/</td> <td class="col-latin">g / y*</td><td class="col-example">γῆ → yi &nbsp;|&nbsp; λόγος → lógos</td></tr>
+          <tr><td class="col-greek">γ  Γ</td><td class="col-name">Gamma</td>   <td class="col-ipa">/ɣ/ or /j/</td> <td class="col-latin">g / y*</td><td class="col-example">γῆ → yi &nbsp;|&nbsp; λόγος → lógos</td></tr>
           <tr><td class="col-greek">δ  Δ</td><td class="col-name">Delta</td>   <td class="col-ipa">/ð/</td>         <td class="col-latin">dh</td>  <td class="col-example">δόξα → dhóxa</td></tr>
           <tr><td class="col-greek">ε  Ε</td><td class="col-name">Epsilon</td> <td class="col-ipa">/e/</td>         <td class="col-latin">e</td>   <td class="col-example">ἐν → en</td></tr>
           <tr><td class="col-greek">ζ  Ζ</td><td class="col-name">Zeta</td>    <td class="col-ipa">/z/</td>         <td class="col-latin">z</td>   <td class="col-example">ζωή → zoí</td></tr>
@@ -427,8 +427,8 @@
           <tr><td class="col-greek">τ  Τ</td><td class="col-name">Tau</td>     <td class="col-ipa">/t/</td>         <td class="col-latin">t</td>   <td class="col-example">τέκνον → téknon</td></tr>
           <tr><td class="col-greek">υ  Υ</td><td class="col-name">Upsilon</td> <td class="col-ipa">/i/</td>         <td class="col-latin">i</td>   <td class="col-example">υἱός → iós</td></tr>
           <tr><td class="col-greek">φ  Φ</td><td class="col-name">Phi</td>     <td class="col-ipa">/f/</td>         <td class="col-latin">f</td>   <td class="col-example">φῶς → fos</td></tr>
-          <tr><td class="col-greek">χ  Χ</td><td class="col-name">Chi</td>     <td class="col-ipa">/x/</td>         <td class="col-latin">ch</td>  <td class="col-example">χάρις → cháris</td></tr>
-          <tr><td class="col-greek">ψ  Ψ</td><td class="col-name">Psi</td>     <td class="col-ipa">/ps/</td>        <td class="col-latin">ps</td>  <td class="col-example">ψυχή → psychí</td></tr>
+          <tr><td class="col-greek">χ  Χ</td><td class="col-name">Chi</td>   <td class="col-ipa">/x/</td>         <td class="col-latin">kh</td>  <td class="col-example">χάρις → kháris</td></tr>
+          <tr><td class="col-greek">ψ  Ψ</td><td class="col-name">Psi</td>     <td class="col-ipa">/ps/</td>        <td class="col-latin">ps</td>  <td class="col-example">ψυχή → psykhí</td></tr>
           <tr><td class="col-greek">ω  Ω</td><td class="col-name">Omega</td>   <td class="col-ipa">/o/</td>         <td class="col-latin">o</td>   <td class="col-example">ὥρα → óra</td></tr>
         </tbody>
       </table>
@@ -451,7 +451,7 @@
           <tr class="diph"><td class="col-greek">αι</td><td class="col-name">Alpha-iota</td>  <td class="col-ipa">/e/</td>  <td class="col-latin">e</td>  <td class="col-example">καί → ke</td></tr>
           <tr class="diph"><td class="col-greek">αυ</td><td class="col-name">Alpha-upsilon</td><td class="col-ipa">/av/ or /af/</td><td class="col-latin">av / af†</td><td class="col-example">αὐτός → aftós</td></tr>
           <tr class="diph"><td class="col-greek">ει</td><td class="col-name">Epsilon-iota</td> <td class="col-ipa">/i/</td>  <td class="col-latin">i</td>  <td class="col-example">εἰρήνη → iríni</td></tr>
-          <tr class="diph"><td class="col-greek">ευ</td><td class="col-name">Epsilon-upsilon</td><td class="col-ipa">/ev/ or /ef/</td><td class="col-latin">ev / ef†</td><td class="col-example">εὐχαριστῶ → efcharistó</td></tr>
+          <tr class="diph"><td class="col-greek">ευ</td><td class="col-name">Epsilon-upsilon</td><td class="col-ipa">/ev/ or /ef/</td><td class="col-latin">ev / ef†</td><td class="col-example">εὐχαριστῶ → efkharistó</td></tr>
           <tr class="diph"><td class="col-greek">οι</td><td class="col-name">Omicron-iota</td> <td class="col-ipa">/i/</td>  <td class="col-latin">i</td>  <td class="col-example">οἶκος → ikos</td></tr>
           <tr class="diph"><td class="col-greek">ου</td><td class="col-name">Omicron-upsilon</td><td class="col-ipa">/u/</td><td class="col-latin">u</td>  <td class="col-example">οὐρανός → uranós</td></tr>
           <tr class="diph"><td class="col-greek">υι</td><td class="col-name">Upsilon-iota</td> <td class="col-ipa">/i/</td>  <td class="col-latin">i</td>  <td class="col-example">υἱός → iós</td></tr>
@@ -474,7 +474,7 @@
         </thead>
         <tbody>
           <tr class="rule-row"><td class="col-greek">γγ</td>  <td class="col-name">Double gamma</td>    <td class="col-ipa">/ŋg/</td>       <td class="col-latin">ng</td>  <td class="col-example">ἄγγελος → ángelos</td></tr>
-          <tr class="rule-row"><td class="col-greek">γ + ε/ι</td><td class="col-name">Gamma palatal</td><td class="col-ipa">/ʝ/</td>        <td class="col-latin">y</td>   <td class="col-example">ἅγιος → áyios</td></tr>
+          <tr class="rule-row"><td class="col-greek">γ + ε/ι</td><td class="col-name">Gamma palatal</td><td class="col-ipa">/j/</td>        <td class="col-latin">y</td>   <td class="col-example">ἅγιος → áyios</td></tr>
           <tr class="rule-row"><td class="col-greek">αυ + voiceless</td><td class="col-name">Alpha-upsilon</td><td class="col-ipa">/af/</td> <td class="col-latin">af</td>  <td class="col-example">αὐτός → aftós</td></tr>
           <tr class="rule-row"><td class="col-greek">ευ + voiceless</td><td class="col-name">Epsilon-upsilon</td><td class="col-ipa">/ef/</td><td class="col-latin">ef</td> <td class="col-example">εὐθύς → efthís</td></tr>
         </tbody>
@@ -574,7 +574,7 @@ function translit() {
         'α':'a',  'β':'v',  'γ':'g',  'δ':'dh', 'ε':'e',  'ζ':'z',
         'η':'i',  'θ':'th', 'ι':'i',  'κ':'k',  'λ':'l',  'μ':'m',
         'ν':'n',  'ξ':'x',  'ο':'o',  'π':'p',  'ρ':'r',  'σ':'s',
-        'ς':'s',  'τ':'t',  'υ':'i',  'φ':'f',  'χ':'ch', 'ψ':'ps',
+        'ς':'s',  'τ':'t',  'υ':'i',  'φ':'f',  'χ':'kh', 'ψ':'ps',
         'ω':'o'
     };
     const accentLatin = {
